@@ -1,0 +1,19 @@
+﻿Bài 5 : Phân tích tốc độ truyền dữ liệu và quản lý đường dẫn tệp an toàn 
+Phần 1:
+Absolute Path (đường dẫn tuyệt đối): điểm xuất phát C:\ hoặc D:\, khi chép thư mục sang máy khác sẽ bị báo lỗi (File Not Found)
+
+
+Relative Path (đường dẫn tương đối): điểm xuát phát là dấu . hoặc .. , sẽ không bị lỗi khi chép thư mục sang máy khác và chạy mượt trên mọi máy
+
+
+1 Bytes = 8 bits  =>  80 bits = 10 Bytes => 10 MB/s
+Theo hệ thập phân: 1GB = 1000MB => 2GB = 2000MB
+                                1s -> 10MB => 2000MB -> 200s  
+
+
+Theo hệ nhị phân: 1GB = 1024MB => 2GB=2048MB
+                              1s -> 10MB => 2048MB -> 204,8s
+
+
+Phần 2:
+* ./db.csv , ../data/db.csv
